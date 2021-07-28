@@ -1,0 +1,46 @@
+.banner-section, .featured-section, .clients-section, .faq-section {
+    overflow: hidden;
+}
+
+.banner-section {
+    background-color: rgba(38, 70, 83, 1);
+}
+
+.banner-section-left {
+    padding-left: 156px;
+}
+
+.honda-button {
+    background-color: rgba(231, 111, 81, 1);
+    color: white;
+    font-weight: 600;
+    padding: 10px 46px;
+    border-radius: 5px;
+}
+
+.banner-section-right {
+    padding-left: 93px;
+}
+
+.featured-section-header {
+    margin-bottom: 70px;
+    ;
+}
+
+.greyed-image {
+    filter: grayscale(100%);
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .banner-section-left {
+        padding-left: 20px;
+    }
+    .banner-section img {
+        width: 90%;
+    }
+    .faq-section img {
+        width: 275px;
+        height: 270px;
+        margin-bottom: 50px;
+    }
+}
